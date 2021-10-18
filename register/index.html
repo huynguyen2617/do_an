@@ -1,50 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <form id="loginForm">
-      <div class="logo">
-        <h2>Login In</h2>
-      </div>
-      <div class="log">
-        <p>
-          <img src="./images/user.PNG" />
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="username"
-          />
-        </p>
-        <p class="btn-password">
-          <img src="./images/pass.PNG" />
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="password"
-          />
-          <img onclick="myfunction()" src="images/eye.jpg" style="height: 27px;width: 30px;" id="btn-show-password">
-        </p>
-        <input type="submit" class="button" value="login" placeholder="Login" />
-      </div>
-      <div class="account">
-        <ul>
-          <li class="pass"><a href="#">Forgot Password</a></li>
-          <li class="line"></li>
-          <li class="registerLog" id="register"><a href="#">Register</a></li>
-        </ul>
-      </div>
-    </form>
-
-    <form id="loginRegister">
-      <div class="register-model display-none" style="display: none;" id="id01">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="hello" id="hello">
+        <h2>hello</h2>
+        <button class="btnClick">register</button>
+    </div>
+    
+    <div class="register-model display-none" style="display: none;" id="id01">
         <div class="img-container">
             <span class="close" title="Close Modal"></span>
             <img src="./image/avatar-login.jfif" style="height: 50px; width: 50px;">
@@ -88,7 +57,6 @@
             <button type="submit" id="login">Register</button>
         </div>
     </div>
-    </form>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+</body>
+<script src="./js/main.js"></script>
 </html>

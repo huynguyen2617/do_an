@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-none{
+    display: block;
+}
+
+.hello{
+
+}
+.register-model{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+    position: relative;
+}
