@@ -20,6 +20,11 @@
     margin: 0 auto;
     border: 2px solid steelblue;
     border-radius: 10px;
+    margin-top: 50px;
+}
+.register-model .img-container{
+    margin-top: 20px;
+    margin-left: 200px;
 }
 .container{
     width: 500px;

@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/register.css">
 </head>
-<body>
-    <div class="hello" id="hello">
-        <h2>hello friend</h2>
-        <button class="btnClick">register</button>
-    </div>
-    
-    <div class="register-model display-none" style="display: none;" id="id01">
+<body>   
+    <div class="register-model display-none" id="id01">
         <div class="img-container">
             <span class="close" title="Close Modal"></span>
-            <img src="./image/avatar-login.jfif" style="height: 50px; width: 50px;">
+            <img src="./images/avatar-login.jfif" style="height: 50px; width: 50px;">
         </div>
         <div class="container">
             <label for="uname">
@@ -55,7 +51,7 @@
         </div>
         <div>
             <button type="submit" style="margin-left: 150px;" id="login">Register</button>
-            <button type="submit" style="float: right; margin-right: 220px;" id="cancel">Cancel</button>
+            <button type="submit" style="float: right; margin-right: 220px;" id="cancel" onclick="document.getElementById('id01').style.display = 'none'">Cancel</button>
         </div>
     </div>
 </body>

@@ -1,8 +1,13 @@
 const btnClick = document.getElementsByClassName("btnClick");
-console.log(btnClick);
+const hello = document.getElementById('hello');
 btnClick[0].addEventListener("click", () => {
     var register = document.getElementById('id01');
-    var hello = document.getElementById('hello');
+
     register.style.display = 'block';
-    // hello.style.display = 'none';
+    hello.style.display = 'none';
 })
+// 
+// hello.addEventListener("click", ()=>{
+//     hello.style.display = 'block';
+//     register.style.display = 'none';
+// })
